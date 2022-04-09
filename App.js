@@ -5,7 +5,6 @@ import { useFonts } from 'expo-font';
 import Home from './screens/Home';
 import Details from './screens/Details';
 
-const Stack = createStackNavigator();
 const theme = {
   ...DefaultTheme,
   colors: {
@@ -13,6 +12,8 @@ const theme = {
     background: "transparent"
   }
 }
+
+const Stack = createStackNavigator();
 
 const App = () => {
 
