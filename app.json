@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "UI NFT marketplace with React Native",
+    "githubUrl": "https://github.com/waelmanai/nft-marketplace"
   }
 }
