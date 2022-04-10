@@ -31,7 +31,7 @@ const Details = ({ route, navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
       <FocusedStatusBar
-        borStyle="dark-content"
+        barStyle="dark-content"
         backgroundColor="transparent"
         translucent={true}
       />
@@ -45,7 +45,7 @@ const Details = ({ route, navigation }) => {
         backgroundColor: 'rgba(255, 255, 255, 0.5)',
         zIndex: 1
       }}>
-        <RectButton minWidth={170} fontSize={SIZES.large} {...SHADOWS.dark} />
+        <RectButton minWidth={170} title="Place a bid" fontSize={SIZES.large} {...SHADOWS.dark} />
       </View>
       <FlatList 
         data={data.bids}
