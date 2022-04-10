@@ -191,4 +191,25 @@ const NFTData = [
   },
 ];
 
-export { NFTData };
+const slides = [
+  {
+    key: 'one',
+    title: 'Slide 1',
+    text: 'Description.\nSay something cool',
+    image: assets.screen1,
+  },
+  {
+    key: 'two',
+    title: 'Slide 2',
+    text: 'Other cool stuff',
+    image: assets.screen2,
+  },
+  {
+    key: 'three',
+    title: 'Slide 3',
+    text: 'I\'m already out of descriptions\n\nLorem ipsum bla bla bla',
+    image: assets.screen3,
+  }
+];
+
+export { NFTData, slides };

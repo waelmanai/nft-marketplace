@@ -18,6 +18,10 @@ import person02 from "../assets/images/person02.png";
 import person03 from "../assets/images/person03.png";
 import person04 from "../assets/images/person04.png";
 
+import screen1 from '../assets/images/screen1.png';
+import screen2 from '../assets/images/screen2.png';
+import screen3 from '../assets/images/screen3.png';
+
 export default {
     badge,
     eth,
@@ -38,4 +42,8 @@ export default {
     person02,
     person03,
     person04,
+
+    screen1,
+    screen2,
+    screen3,
 };
