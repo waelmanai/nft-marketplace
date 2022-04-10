@@ -46,6 +46,7 @@ const NFTCard = ({data}) => {
           <RectButton 
             minWidth={120}
             fontSize={SIZES.font}
+            title="Place a bid"
             handlePress={ () => navigation.navigate("Details", {data}) }
           />
         </View>
